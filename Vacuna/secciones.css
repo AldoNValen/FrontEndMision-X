@@ -1,0 +1,430 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(13, 35, 235); 
+    font-size: medium;
+}
+
+
+.boton{
+    background-color: rgb(13, 35, 235); ;
+    color: rgb(255, 255, 255); 
+    width: 150px;
+    height: 40px;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 20px;
+ 
+}
+
+.boton52{
+    background-color: rgb(13, 35, 235); ;
+    color: rgb(255, 255, 255); 
+    width: 120px;
+    height: 40px;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 20px;
+ 
+}
+
+.botonContacto{
+    background-color: rgb(166, 199, 241); 
+    color: rgb(8, 29, 219); 
+    width: 110px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 15px;
+    font-size: 15px;
+  
+ 
+}
+
+.botonContacto2{
+    background-color: rgb(8, 29, 219); ;
+    color: rgb(255, 255, 255); 
+    width: 110px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 15px;
+    font-size: 15px;
+  
+ 
+}
+
+
+navMenu{
+ 
+    width: 30%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.fondoBlanco{
+    background-color: rgb(255, 255, 255);
+}
+.contenedor{
+ 
+    width: 50%;
+    height: 100px;
+    /* only for demonstration, should be removed */
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+footer {
+    background-color: rgb(166, 199, 241); 
+   padding: 80px;
+    text-align: center;
+    color: rgb(8, 29, 219); 
+   
+}
+
+.intermedio {
+  background-image: url("./imagenes/pie.PNG");
+    background-size:cover;
+    padding: 10%;
+}
+
+.intermedioSinimg {
+    background-color: #ffffff;
+      background-size:cover;
+      padding: 5%;
+      height: 200px;
+  }
+
+.navPaquete{
+    float: left;
+    width: 40%;
+   
+    /* only for demonstration, should be removed */
+    background: rgb(255, 255, 255);
+   padding-left: 5%;
+    
+}
+
+.navPaqueteFinal{
+    float: left;
+    width: 40%;
+   
+    /* only for demonstration, should be removed */
+    background-color: rgb(166, 199, 241); 
+   padding-left: 5%;
+   color: rgb(8, 29, 219); 
+    
+}
+
+table{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.tr{
+ 
+   
+    padding-right: 60%;
+  
+    
+ }
+ 
+.thContacto{
+ 
+   text-align: left;
+   padding-right: 40%;
+ 
+    color: rgb(41, 108, 207);
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.tdContacto{
+    padding-left: 1%;
+    padding-right: 60%;
+    color: rgb(41, 108, 207);
+    font-weight: 400;
+
+}
+
+.tdContacto2{
+    padding-left: 3%;
+    padding-right: 60%;
+    color: rgb(41, 108, 207);
+    font-weight: 400;
+
+}
+/* .navPaquete{
+    float: left;
+    width: 40%;
+   
+    /* only for demonstration, should be removed 
+    background: rgb(89, 213, 235);
+   
+    
+}  */
+
+
+nav {
+    float: left;
+    width: 50%;
+   
+    /* only for demonstration, should be removed */
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.navFin {
+    float: left;
+    width: 40%;
+   
+    /* only for demonstration, should be removed */
+    background-color: rgb(166, 199, 241); 
+    
+}
+
+.navFinMini{
+    float: left;
+    width: 20%;
+    padding-top: 50px;
+   
+    /* only for demonstration, should be removed */
+    background-color: rgb(166, 199, 241); 
+    
+}
+
+.p1{
+    color: darkblue;
+    text-align: left;
+    font-size: 350%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p7{
+    color: darkblue;
+    text-align: left;
+    font-size: 250%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p8{
+    color: darkblue;
+    text-align: justify;
+    font-size: 140%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p82{
+    color: darkblue;
+    text-align: justify;
+    font-size: 140%;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+.p3{
+    color: rgb(41, 108, 207);
+    text-align: justify;
+    font-size: 170%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p4{
+    color: rgb(41, 108, 207);
+    text-align: left;
+    font-size: 150%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+}
+
+.p5{
+    color: rgb(41, 108, 207);
+    text-align: left;
+    font-size: 150%;
+ 
+    padding-right: 10%;
+    font-weight: 700;
+}
+
+.p52{
+    color: rgb(9, 52, 116);
+    text-align: left;
+    font-size: 180%;
+ 
+    padding-right: 10%;
+    font-weight: 700;
+}
+
+
+.p6{
+    color: rgb(41, 108, 207);
+    text-align: left;
+    font-size: 110%;
+ 
+    padding-right: 10%;
+    font-weight: 700;
+}
+
+.pFin{
+    color: rgb(41, 108, 207);
+    text-align: left;
+    font-size: 90%;
+ padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+}
+
+.th{
+    text-align: left;
+    padding-left: 20px;
+    background-color:white ;
+}
+
+.th2{
+    text-align: left;
+    padding-left: 80px;
+    background-color:white ;
+}
+
+
+section{
+    height: 700px;
+}
+
+.sectionPeque{
+    height: 400px;
+}
+
+.sectionPequeFin{
+    height: 400px;
+
+    background-color: rgb(166, 199, 241); 
+   
+    color: rgb(8, 29, 219); 
+
+}
+
+.sectionIntermedia{
+    height: 200px;
+    padding-left: 5%;
+}
+
+
+
+div{
+    height: 400px;
+}
+
+.fondoPrioncipal{
+    background-color: #ffffff;
+    padding: 30px;
+    padding-inline-end: 10px;
+    text-align: left;
+    color: rgb(13, 35, 235);
+   
+}
+
+.fondoColor{
+    background-color: #0f6666; 
+}
+
+.fondoColorMenu{
+    background-color: #ffffff;
+    font-size: xx-large;
+    align-content: flex-end;
+    text-decoration-line: unset;
+    color: black;
+}
+
+
+.fondoColorMenu3{
+    background-color: #ffffff;
+    color: rgb(13, 35, 235);
+    padding: 20px;
+    padding-right: 30%;
+    text-align: left;
+    font-size: xx-large;
+    text-decoration-line: unset;
+
+}
+
+
+.fondoColorMenu2{
+    background-color: #55aef7;
+    font-size: xx-large;
+    text-align: right;
+    text-decoration-line: unset;
+    color: black;
+
+}
+
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url("./imagenes/Enfermera.PNG");
+    height: 700px;
+    background-size: cover;
+}
+
+.fondoImagen2{
+    background-image: url("./imagenes/libreta.jpg");
+    height: 700px;
+    background-size: cover;
+}
+
+.fondoImagen3{
+    background-image: url("./imagenes/chica.PNG");
+    height: 700px;
+    background-size: cover;
+}
+
+.fondoImagen4{
+    background-image: url("./imagenes/chavo2.PNG");
+    height: 700px;
+    background-size: cover;
+}
+
+
+
+.fondoRepetidoX{
+    background-image: url("./images/fondo2.jpg");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("./images/fondo1.jpg");
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url("./images/fondo2.jpg");
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("./images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.fondoCompleto{
+    background-image: url("./images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
