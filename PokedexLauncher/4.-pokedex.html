@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokeEstilo.css">
+    
+</head>
+<body>
+    <section class="fondoCompleto">
+    <header><h1>Pokedex LaunchX</h1></header>
+    <!-- <h1>Pokedex LaunchX</h1> -->
+
+   
+
+<div id="dvIngreso" class="divIngresos">
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" >
+    <br><br>
+    <label for="Movimientos">No. Movimientos:</label><br>
+    <input type="number" id="numMov" name="numMov"><br><br>
+    <br>  
+    <button onclick="fetchPokemon()">Buscar...</button>
+     
+</div>
+    
+
+<div id="dvPokedex" class="poke-card">
+    <div id="dvName">Pokedex v 1.0</div>
+    <div id="dvImgContenerdor" class="img-container">
+        <img id="pokeImg" class="poke-img" src="./imagenes/pokeball.png" width="200px"/>
+    </div>
+    <div id="dvNumero"></div>
+    <div id="dvTipo" class="poke-types"></div>
+    <br><br>
+    <div id="dvEstadisticas" data-poke-stats class="poke-stats"></div>
+    <br><br>
+    <div id="dvMovimientos" data-poke-stats class="poke-stats">
+        <br>  
+     
+    </div>
+</div>
+<br> <br> 
+
+
+</body>
+<footer >
+
+    <script src="./4.-pokedex.js"></script>
+</footer>
+</section>
+</html>
